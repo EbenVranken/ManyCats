@@ -1,0 +1,101 @@
+#one {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-abyssinian.jpg);
+    background-position: 60%; 
+}
+
+#two {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-aegean.jpg);
+    background-position: center; 
+}
+
+#three {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-americanbobtail.jpg);
+    background-position: center; 
+}
+
+#four {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-americancurl.jpg);
+    background-position: center; 
+}
+
+#five {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-americanshorthair.jpg);
+    background-position: 30%; 
+}
+
+#six {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-americanwirehair.jpg);
+    background-position: 70%; 
+}
+
+#seven {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-balinese.jpg);
+    background-position: 20%; 
+}
+
+#eight {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-bengal.jpg);
+    background-position: center; 
+}
+
+#nine {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-birman.jpg);
+    background-position: center; 
+}
+
+#ten {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-bombay.jpg);
+    background-position: 30%; 
+}
+
+
+
+#eleven {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-britishshorthair.jpg);
+    background-position: 60%; 
+}
+
+#twelve {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-burmese.jpg);
+    background-position: center; 
+}
+
+#thirteen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-.chartreux.jpg);
+    background-position: center; 
+}
+
+#fourteen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-chausie.jpg);
+    background-position: center; 
+}
+
+#fifteen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-cornishrex.jpg);
+    background-position: 30%; 
+}
+
+#sixteen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-devonrex.jpg);
+    background-position: 70%; 
+}
+
+#seventeen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-egyptianmau.jpg);
+    background-position: 20%; 
+}
+
+#eighteen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-exoticshorthair.jpg);
+    background-position: center; 
+}
+
+#nineteen {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-havanabrown.jpg);
+    background-position: center; 
+}
+
+#twenty {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cat-card-himalayan.jpg);
+    background-position: 30%; 
+}

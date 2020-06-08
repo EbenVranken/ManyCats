@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Hello there!-->
+<!--I hope you have a nice day-->
+
+<head>
+    <!--Styling-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="icon" href="img/icon.png">
+
+
+    <!--Metadata-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!--Scripts-->
+    <script src="js/focus.js"></script>
+    <script src="js/search.js"></script>
+    <title>ℂ𝔸𝕋𝕊</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="header-title">CATS</h1>
+        <input id="search" onkeyup="filter()" type="text" placeholder="Search for cat breed">
+    </div>
+
+    <ul id="cards">
+        <li class="card" id="one" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">ABYSSINIAN</a>
+            <p id="infoone" class="info">
+                Abyssinian are elegant medium-sized cats with strong, lithe bodies and long, slender legs. They have
+                round, wedge-shaped heads with distinctive small tufts on the tips of ears and large almond-shaped eyes.
+            </p>
+        </li>
+        <li class="card" id="two" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">AEGEAN</a>
+            <p id="infotwo" class="info">
+                The Aegean cat is a medium-sized cat with a lean, muscular frame. A predominantly white cat, it is
+                bicolored or tricolored, with one of any variety of colors and patterns combined with the dominant white
+                shade. Its fur coat is medium length, without any down, topped off by a thick tail.
+            </p>
+        </li>
+        </li>
+        <li class="card" id="three" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">AMERICAN BOBTAIL</a>
+            <p id="infothree" class="info">
+                Urban legend says that Bobtails are the result of a cross breeding between a domestic tabby cat and a
+                wild bobcat. The unusual tail is actually the result of a random spontaneous genetic mutation within the
+                domestic cat population, and may be related to the Manx gene, which is also dominant.
+            </p>
+        </li>
+        <li class="card" id="four" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">AMERICAN CURL</a>
+            <p id="infofour" class="info">
+                The American Curl is a breed of cat characterized by its unusual ears, which curl back from the face
+                toward the center of the back of the skull. An American Curl's ears should be handled carefully because
+                rough handling may damage the cartilage in the ear. The breed originated in Lakewood, California, as the
+                result of a spontaneous mutation.
+            </p>
+        </li>
+        <li class="card" id="five" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">AMERICAN SHORTHAIR</a>
+            <p id="infofive" class="info">
+                According to the breed standard of the Cat Fanciers' Association, the American Shorthair is a true breed
+                of working cat. They have round faces and short ears. According to the CFA, American Shorthairs are
+                low-maintenance cats that are generally healthy, easy-going, affectionate with owners and social with
+                strangers.
+            </p>
+        </li>
+        <li class="card" id="six" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">AMERICAN WIREHAIR</a>
+            <p id="infosix" class="info">
+                The American Wirehair is a medium-size cat with regular features and a sweet expression. This cat's wiry
+                coat, right down to the whiskers, is thick, hard and springy. It has been described as resembling steel
+                wool. His unusual coat comes in almost any color or pattern. </p>
+        </li>
+        <li class="card" id="seven" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">BALINESE</a>
+            <p id="infoseven" class="info">
+                Balinese cat. The Balinese is a long-haired breed of domestic cat with Siamese-style point coloration
+                and sapphire-blue eyes. ... Like their Siamese ancestors, Balinese are sociable, vocal, playful and
+                inquisitive, and an intelligent breed.
+            </p>
+        </li>
+        <li class="card" id="eight" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">BENGAL</a>
+            <p id="infoeight" class="info">
+                The Bengal cat is a highly intelligent breed characterised by its wild, leopard-like appearance. It is
+                also incredibly active and playful with an affectionate and gentle temperament. The Bengal, or
+                'miniature leopard' as it is affectionately known, has become increasingly popular in recent times.
+            </p>
+        </li>
+        <li class="card" id="nine" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">BIRMAN</a>
+            <p id="infonine" class="info">
+                A Birman cat is semi-longhaired with darker colouring to the points, face, legs, ears and tail, and a
+                pale toning body colour. It is a largish cat with thickset body and short legs. The Birman cat has blue
+                eyes and four pure white feet.
+            </p>
+        </li>
+        <li class="card" id="ten" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">BOMBAY</a>
+            <p id="infoten" class="info">
+                Overall, the Bombay breed is intelligent, playful, and attention-seeking. The Bombay's muscular
+                medium-sized body can be deceiving, as they often weigh slightly more than they might appear to. They
+                don't shed as much as other breeds and require very little grooming.</p>
+        </li>
+
+
+
+        <li class="card" id="eleven" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">BRITISH SHORTHAIR</a>
+            <p id="infoeleven" class="info">
+                The thick and dense coat, copper-colored teddy-bear eyes, and signature blue color make these cats a
+                very popular choice among the large cat breeds. This sturdy cat is actually ranked third among the US’s
+                most popular felines. The British Shorthair cat is a laid-back furball that likes to play but doesn’t
+                demand attention. It’s more dignified and calm, especially as it gets older.
+            </p>
+        </li>
+        <li class="card" id="twelve" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">BURMESE</a>
+            <p id="infotwelve" class="info">
+                A big, heavy-boned cat, the Burmese is distinctive for its round look and short, soft coat—which might
+                be in the original sable, as well as light brown, blue, and lilac.
+                All the Burmese cats in the US can be traced back to one chocolate-colored cat, brought to the US from
+                Burma in 1930. Recognized by the CFA in 1957, this feline is now in 19th place among the most popular
+                cat breeds for 2019.
+            </p>
+        </li>
+        </li>
+        <li class="card" id="thirteen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">CHARTREUX</a>
+            <p id="infothirteen" class="info">
+                This medium-sized, wooly feline is one of the best cat breeds for someone who wants nothing more than to
+                have a pet sit in their lap when they watch TV or relax.
+                The history of this domestic cat is long and covers three continents. It was brought from Persia to
+                France, where it lived with monks, then to Britain, and finally to the US, where it was recognized by
+                the CFA in 1987.
+            </p>
+        </li>
+        <li class="card" id="fourteen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">CHAUSIE</a>
+            <p id="infofourteen" class="info">
+                All cat lovers dream of owning a big wild cat. While many have given up on the dream, due to the obvious
+                dangers of keeping a tiger in the house, some American breeders still had hope of creating different
+                kinds of cats that resemble a jungle cat, and so they developed the Chausie, a miniature version of its
+                wilder brethren.
+            </p>
+        </li>
+        <li class="card" id="fifteen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">CORNISH REX</a>
+            <p id="infofifteen" class="info">
+                Anyone who has seen or petted a Cornish Rex knows there’s nothing like it in the world of felines. Its
+                oversized, pointed ears, arched back, and soft, wavy coat are some of the most specific characteristics
+                of this cat breed.
+                The first cat of this breed was born in Cornwall as the result of a spontaneous mutation.
+            </p>
+        </li>
+        <li class="card" id="sixteen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">DEVON REX</a>
+            <p id="infosixteen" class="info">
+                The Devon Rex is one of the most mischievous and friendliest cat breeds. This feline lives to entertain
+                owners with its silly antics and tricks. It’s not just the family it loves. These cute cats also get on
+                with other felines, dogs, rabbits—you name it. As they demonstrate levels of socialization and
+                playfulness unusual for cats, it’s sometimes said that the Devon Rex is part-cat, part-dog, and
+                part-monkey. </p>
+        </li>
+        <li class="card" id="seventeen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">EGYPTIAN MAU</a>
+            <p id="infoseventeen" class="info">
+                Sometimes referred to as the greyhound of felines, this kitty has incredibly fast reflexes that are only
+                matched by its elegance and grace. The Egyptian Mau cat is also a jumper, so don’t be surprised when you
+                see it leap impossible heights or find it perched on top of a tall bookcase.
+            </p>
+        </li>
+        <li class="card" id="eighteen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">EXOTIC SHORTHAIR</a>
+            <p id="infoeighteen" class="info">
+                For people who want a Persian cat but can’t be bothered with all the grooming of fluffy cat breeds,
+                there’s the Exotic. It’s like a Persian, but it has short hair. This kitty has a thick, heavy-boned
+                body, as well as a wonderful, plush coat, squashed face, and large, round eyes.
+            </p>
+        </li>
+        <li class="card" id="nineteen" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">HAVANA BROWN</a>
+            <p id="infonineteen" class="info">
+                This is a muscular, medium-sized cat with a long and lean body. It’s also one of the extremely rare cat
+                breeds.
+                The Havana Brown is the boss in households. Not only does it expect to be a part of everything that
+                happens, it also wants to have the last word in everything.
+            </p>
+        </li>
+        <li class="card" id="twenty" onmouseover="infoOn(this);" onmouseout="infoOff(this);">
+            <a id="header">HIMILAYAN</a>
+            <p id="infotwenty" class="info">
+                The Himalayan is a crossbreed between a Siamese and a Persian cat. It has the fluff of the Persian and
+                the color point and deep blue eyes of the Siamese. Because it’s a hybrid, it isn’t recognized by the CFA
+                as a separate breed.
+                One of the more cute cat breeds, Himmies are quiet and docile pets. They’re content to be by themselves
+                for most of the day and will cuddle in your lap,</p>
+        </li>
+    </ul>
+</body>
+
+</html>
